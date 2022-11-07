@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+body {
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+.countries {
+    display: flex;
+}
+
+.country_flag {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.108);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.country {
+    width: 30%;
+    margin: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    background-color:white;
+    font-family: 'Rajdhani', sans-serif;
+    
+    
+    
+}
+
+p {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.country_flag {
+    padding: 0px;
+    width: 100%;
+}
+
+.country_name {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+.country_region {
+    text-align: left;
+    margin: 20px;
+    font-size: 18px;
+    color: grey;
+    
+}
+
+.neighbour {
+    
+    width: 19% ;
+    opacity: 1;
+    height: fit-content;
+    margin: 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    background-color:white;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.108);
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+.neighbour::before {
+    content: 'Neighbour country';
+    /* width: 100%; */
+    position: absolute;
+    display: flex;
+    top: 10px;
+    /* left: 20px; */
+
+    
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+.btn-country {
+    border: none;
+    border-radius: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 20px;
+    background: rgba(237, 13, 13, 0.722);
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    display: flex;
+    
+    
+}
+
+.btn-country:hover {
+    background: rgba(237, 13, 13, 0.355);
+    cursor: pointer;
+    
+}
+
+.country-name{
+    padding: 20px;
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+}
