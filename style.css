@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
-body {
-    background-color: rgba(128, 128, 128, 0.164);
-}
+
 .countries {
     display: flex;
 }
@@ -15,7 +13,6 @@ body {
 .country {
     width: 30%;
     margin: 20px;
-    padding: 0;
     border: none;
     border-radius: 10px;
     text-align: left;
@@ -66,7 +63,6 @@ p {
     text-align: center;
     font-size: 1.8rem;
     font-weight: 600;
-    text-transform: uppercase;
     color: #888;
   }
 
@@ -82,9 +78,7 @@ p {
     display: flex;
 }
 
-.btn-country:hover {
-    background: rgba(237, 13, 13, 0.355);
-    cursor: pointer;
+
     
 }
 
